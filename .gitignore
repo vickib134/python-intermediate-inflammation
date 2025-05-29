@@ -1,4 +1,4 @@
-# IDEs
+python3source# IDEs
 .vscode/
 .idea/
 
@@ -12,3 +12,7 @@
 *.pyc
 *.egg-info
 .pytest_cache
+
+# Virtual environments
+venv/
+.venv/
