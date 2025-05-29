@@ -9,7 +9,6 @@ and each column represents a single day across all patients.
 
 import numpy as np
 
-
 def load_csv(filename):  
     """Load a Numpy array from a CSV
 
@@ -31,4 +30,3 @@ def daily_max(data):
 def daily_min(data):
     """Calculate the daily min of a 2D inflammation data array."""
     return np.min(data, axis=0)
-
